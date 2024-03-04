@@ -19,6 +19,7 @@ Watch the video of expected output for this exercise. The plane appears to fly b
 2.	In styles.css, create a new declaration for your new class but don’t put anything in it just yet.
 3.	Next, create a new keyframe animation that will be attached to your new class. Here is an outline:
 
+```
 @keyframes your-animation-name {
     from {
             
@@ -27,6 +28,7 @@ Watch the video of expected output for this exercise. The plane appears to fly b
       
     }
 }
+```
 
 The animation only needs a start and an end frame—the browser will fill in the rest.
 
