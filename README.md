@@ -1,4 +1,4 @@
-# Practical 11 (week 6, practical 1): CSS Animation
+# Week 5 Practical 1: CSS Animation
 You will create some simple animated scenes using only CSS and some Font Awesome icons. You will also have the opportunity to add animation to your portfolio site.
 
 ## Stage 1: Creating Animated Scenes
