@@ -72,6 +72,7 @@ body {
     position: absolute;
     left: 50%;
     bottom: 0%;
+    animation: movingHelicopter 10s linear infinite;
 }
 
 /** Exercise 1.4 - add animation properties to each of the following classes (see guidance) **/
@@ -97,3 +98,39 @@ body {
     left:100%;
     bottom:0%;
 }
+
+.movingBackground {
+    animation: movingBackgroundRight 1s linear infinite;
+}
+
+@keyframes movingBackgroundRight {
+    from {
+        left: 0%;
+    }
+    to {
+        left:-100%;
+    }
+}
+
+.turbulence {
+    animation: turbulentPlane 0.3s linear infinite;
+}
+
+@keyframes turbulentPlane {
+    0% {top: 50%}
+    25% {top: 40%}
+    50% {top: 50%}
+    75% {top: 60%}
+    100% {top: 50%}
+}
+
+@keyframes movingHelicopter {
+    0% {left: 0%; top: 84%}
+    10% {left: 0%; top: 84%}
+    25% {left: 10%; top: 15%}
+    50% {left: 45%; top: 5%}
+    75% {left: 80%; top: 15%}
+    90% {left: 90%; top: 84%}
+    100% {left: 90%; top: 84%}
+}
+
